@@ -1,0 +1,196 @@
+{
+    "experiments": [
+        {
+            "experiment_id": "exp_001",
+            "campaign_id": "camp_q2_2026_hero",
+            "campaign_name": "Q2 2026 SaaS Product Launch",
+            "platform": "Facebook",
+            "status": "completed",
+            "hypothesis": "Pattern interrupt hooks drive higher CTR than curiosity gap hooks",
+            "date_start": "2026-06-01T00:00:00Z",
+            "date_end": "2026-06-14T23:59:59Z",
+            "variant_a": {
+                "creative_id": "cr_001_hook_pattern",
+                "creative_name": "Hero Ad - Pattern Interrupt Hook",
+                "video_url": "https://cdn.example.com/videos/exp_001_var_a.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_001_var_a.jpg",
+                "metadata": {
+                    "duration_sec": 15,
+                    "publish_date": "2026-06-01T08:00:00Z",
+                    "tags": [
+                        "hero",
+                        "product_launch",
+                        "pattern_interrupt"
+                    ],
+                    "hook_style": "pattern_interrupt",
+                    "cta_style": "learn_more"
+                },
+                "metrics": {
+                    "impressions": 145000,
+                    "clicks": 8700,
+                    "ctr": 0.06,
+                    "avg_watch_time": 8.2,
+                    "conversions": 435,
+                    "conversion_rate": 0.05,
+                    "spend": 1450.00,
+                    "revenue": 4350.00
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_001_hook_curiosity",
+                "creative_name": "Hero Ad - Curiosity Gap Hook",
+                "video_url": "https://cdn.example.com/videos/exp_001_var_b.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_001_var_b.jpg",
+                "metadata": {
+                    "duration_sec": 15,
+                    "publish_date": "2026-06-01T08:00:00Z",
+                    "tags": [
+                        "hero",
+                        "product_launch",
+                        "curiosity_gap"
+                    ],
+                    "hook_style": "curiosity_gap",
+                    "cta_style": "learn_more"
+                },
+                "metrics": {
+                    "impressions": 142000,
+                    "clicks": 6835,
+                    "ctr": 0.048,
+                    "avg_watch_time": 9.1,
+                    "conversions": 308,
+                    "conversion_rate": 0.045,
+                    "spend": 1420.00,
+                    "revenue": 3080.00
+                }
+            }
+        },
+        {
+            "experiment_id": "exp_002",
+            "campaign_id": "camp_cta_optimization",
+            "campaign_name": "CTA Button Copy Optimization",
+            "platform": "Instagram",
+            "status": "completed",
+            "hypothesis": "Benefit-focused CTAs outperform urgency-driven CTAs in conversion rate",
+            "date_start": "2026-05-20T00:00:00Z",
+            "date_end": "2026-06-03T23:59:59Z",
+            "variant_a": {
+                "creative_id": "cr_002_cta_urgent",
+                "creative_name": "Testimonial Ad - Urgent CTA (Buy Now)",
+                "video_url": "https://cdn.example.com/videos/exp_002_var_a.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_002_var_a.jpg",
+                "metadata": {
+                    "duration_sec": 30,
+                    "publish_date": "2026-05-20T10:00:00Z",
+                    "tags": [
+                        "testimonial",
+                        "social_proof",
+                        "urgent"
+                    ],
+                    "hook_style": "social_proof",
+                    "cta_style": "buy_now"
+                },
+                "metrics": {
+                    "impressions": 89000,
+                    "clicks": 3560,
+                    "ctr": 0.04,
+                    "avg_watch_time": 18.5,
+                    "conversions": 123,
+                    "conversion_rate": 0.0346,
+                    "spend": 1068.00,
+                    "revenue": 2952.00
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_002_cta_benefit",
+                "creative_name": "Testimonial Ad - Benefit CTA (Discover How)",
+                "video_url": "https://cdn.example.com/videos/exp_002_var_b.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_002_var_b.jpg",
+                "metadata": {
+                    "duration_sec": 30,
+                    "publish_date": "2026-05-20T10:00:00Z",
+                    "tags": [
+                        "testimonial",
+                        "social_proof",
+                        "benefit"
+                    ],
+                    "hook_style": "social_proof",
+                    "cta_style": "discover_how"
+                },
+                "metrics": {
+                    "impressions": 91000,
+                    "clicks": 3276,
+                    "ctr": 0.036,
+                    "avg_watch_time": 20.1,
+                    "conversions": 180,
+                    "conversion_rate": 0.055,
+                    "spend": 1092.00,
+                    "revenue": 4320.00
+                }
+            }
+        },
+        {
+            "experiment_id": "exp_003",
+            "campaign_id": "camp_duration_test",
+            "campaign_name": "Video Duration Impact Analysis",
+            "platform": "YouTube",
+            "status": "running",
+            "hypothesis": "Longer videos with more storytelling drive higher ROAS despite lower CTR",
+            "date_start": "2026-06-08T00:00:00Z",
+            "date_end": "2026-06-21T23:59:59Z",
+            "variant_a": {
+                "creative_id": "cr_003_duration_short",
+                "creative_name": "Educational Ad - Short Cut (15s)",
+                "video_url": "https://cdn.example.com/videos/exp_003_var_a.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_003_var_a.jpg",
+                "metadata": {
+                    "duration_sec": 15,
+                    "publish_date": "2026-06-08T06:00:00Z",
+                    "tags": [
+                        "educational",
+                        "short_form",
+                        "quick_wins"
+                    ],
+                    "hook_style": "pattern_interrupt",
+                    "cta_style": "sign_up"
+                },
+                "metrics": {
+                    "impressions": 256000,
+                    "clicks": 12800,
+                    "ctr": 0.05,
+                    "avg_watch_time": 11.8,
+                    "conversions": 486,
+                    "conversion_rate": 0.038,
+                    "spend": 2048.00,
+                    "revenue": 3888.00
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_003_duration_long",
+                "creative_name": "Educational Ad - Full Story (30s)",
+                "video_url": "https://cdn.example.com/videos/exp_003_var_b.mp4",
+                "thumbnail_url": "https://cdn.example.com/thumbnails/exp_003_var_b.jpg",
+                "metadata": {
+                    "duration_sec": 30,
+                    "publish_date": "2026-06-08T06:00:00Z",
+                    "tags": [
+                        "educational",
+                        "storytelling",
+                        "full_context"
+                    ],
+                    "hook_style": "curiosity_gap",
+                    "cta_style": "sign_up"
+                },
+                "metrics": {
+                    "impressions": 262000,
+                    "clicks": 10544,
+                    "ctr": 0.0403,
+                    "avg_watch_time": 22.3,
+                    "conversions": 633,
+                    "conversion_rate": 0.06,
+                    "spend": 2096.00,
+                    "revenue": 6330.00
+                }
+            }
+        }
+    ]
+}
