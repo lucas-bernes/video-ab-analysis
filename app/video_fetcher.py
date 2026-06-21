@@ -32,6 +32,7 @@ def fetch_video(url: str, force_download: bool = False) -> str:
 
     # Cache hit
     if file_path.exists() and not force_download:
+        print("Cache hit")
         return str(file_path)
 
     try:
