@@ -1,0 +1,91 @@
+{
+    "experiments": [
+        {
+            "experiment_id": "exp_001",
+            "campaign_name": "Hook Test - Summer Promo",
+            "platform": "Meta Ads",
+            "variant_a": {
+                "creative_id": "cr_001_a",
+                "creative_name": "Summer Promo - Fast Cut",
+                "video_url": "https://example.com/videos/summer_a.mp4",
+                "metrics": {
+                    "ctr": 0.018,
+                    "watch_time_sec": 7.4,
+                    "conversions": 14,
+                    "impressions": 12000,
+                    "clicks": 216
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_001_b",
+                "creative_name": "Summer Promo - Dynamic Hook",
+                "video_url": "https://example.com/videos/summer_b.mp4",
+                "metrics": {
+                    "ctr": 0.024,
+                    "watch_time_sec": 8.1,
+                    "conversions": 19,
+                    "impressions": 11800,
+                    "clicks": 283
+                }
+            }
+        },
+        {
+            "experiment_id": "exp_002",
+            "campaign_name": "Product Demo - CTA Test",
+            "platform": "TikTok Ads",
+            "variant_a": {
+                "creative_id": "cr_002_a",
+                "creative_name": "Product Demo - Explainer Style",
+                "video_url": "https://example.com/videos/demo_a.mp4",
+                "metrics": {
+                    "ctr": 0.031,
+                    "watch_time_sec": 9.2,
+                    "conversions": 22,
+                    "impressions": 9500,
+                    "clicks": 295
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_002_b",
+                "creative_name": "Product Demo - Direct CTA",
+                "video_url": "https://example.com/videos/demo_b.mp4",
+                "metrics": {
+                    "ctr": 0.027,
+                    "watch_time_sec": 8.5,
+                    "conversions": 18,
+                    "impressions": 9800,
+                    "clicks": 265
+                }
+            }
+        },
+        {
+            "experiment_id": "exp_003",
+            "campaign_name": "Short vs Long Format Test",
+            "platform": "YouTube Ads",
+            "variant_a": {
+                "creative_id": "cr_003_a",
+                "creative_name": "Long Form Narrative",
+                "video_url": "https://example.com/videos/long_form_a.mp4",
+                "metrics": {
+                    "ctr": 0.014,
+                    "watch_time_sec": 12.8,
+                    "conversions": 10,
+                    "impressions": 15000,
+                    "clicks": 210
+                }
+            },
+            "variant_b": {
+                "creative_id": "cr_003_b",
+                "creative_name": "Short Hook Version",
+                "video_url": "https://example.com/videos/short_hook_b.mp4",
+                "metrics": {
+                    "ctr": 0.021,
+                    "watch_time_sec": 6.9,
+                    "conversions": 16,
+                    "impressions": 14800,
+                    "clicks": 311
+                }
+            }
+        }
+    ]
+}
