@@ -18,8 +18,8 @@
             },
             "variant_b": {
                 "creative_id": "cr_001_b",
-                "creative_name": "Summer Promo - Dynamic Hook",
-                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
+                "creative_name": "Free Sample",
+                "video_url": "https://www.w3schools.com/tags/movie.mp4",
                 "metrics": {
                     "ctr": 0.024,
                     "watch_time_sec": 8.1,
@@ -48,42 +48,13 @@
             "variant_b": {
                 "creative_id": "cr_002_b",
                 "creative_name": "Product Demo - Direct CTA",
-                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
+                "video_url": "https://www.w3schools.com/html/mov_bbb.mp4",
                 "metrics": {
                     "ctr": 0.027,
                     "watch_time_sec": 8.5,
                     "conversions": 18,
                     "impressions": 9800,
                     "clicks": 265
-                }
-            }
-        },
-        {
-            "experiment_id": "exp_003",
-            "campaign_name": "Short vs Long Format Test",
-            "platform": "YouTube Ads",
-            "variant_a": {
-                "creative_id": "cr_003_a",
-                "creative_name": "Long Form Narrative",
-                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
-                "metrics": {
-                    "ctr": 0.014,
-                    "watch_time_sec": 12.8,
-                    "conversions": 10,
-                    "impressions": 15000,
-                    "clicks": 210
-                }
-            },
-            "variant_b": {
-                "creative_id": "cr_003_b",
-                "creative_name": "Short Hook Version",
-                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
-                "metrics": {
-                    "ctr": 0.021,
-                    "watch_time_sec": 6.9,
-                    "conversions": 16,
-                    "impressions": 14800,
-                    "clicks": 311
                 }
             }
         }
