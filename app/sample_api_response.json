@@ -7,7 +7,7 @@
             "variant_a": {
                 "creative_id": "cr_001_a",
                 "creative_name": "Summer Promo - Fast Cut",
-                "video_url": "https://example.com/videos/summer_a.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.018,
                     "watch_time_sec": 7.4,
@@ -19,7 +19,7 @@
             "variant_b": {
                 "creative_id": "cr_001_b",
                 "creative_name": "Summer Promo - Dynamic Hook",
-                "video_url": "https://example.com/videos/summer_b.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.024,
                     "watch_time_sec": 8.1,
@@ -36,7 +36,7 @@
             "variant_a": {
                 "creative_id": "cr_002_a",
                 "creative_name": "Product Demo - Explainer Style",
-                "video_url": "https://example.com/videos/demo_a.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.031,
                     "watch_time_sec": 9.2,
@@ -48,7 +48,7 @@
             "variant_b": {
                 "creative_id": "cr_002_b",
                 "creative_name": "Product Demo - Direct CTA",
-                "video_url": "https://example.com/videos/demo_b.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.027,
                     "watch_time_sec": 8.5,
@@ -65,7 +65,7 @@
             "variant_a": {
                 "creative_id": "cr_003_a",
                 "creative_name": "Long Form Narrative",
-                "video_url": "https://example.com/videos/long_form_a.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.014,
                     "watch_time_sec": 12.8,
@@ -77,7 +77,7 @@
             "variant_b": {
                 "creative_id": "cr_003_b",
                 "creative_name": "Short Hook Version",
-                "video_url": "https://example.com/videos/short_hook_b.mp4",
+                "video_url": "https://www.learningcontainer.com/wp-content/uploads/2020/05/sample-mp4-file.mp4?utm_source=chatgpt.com",
                 "metrics": {
                     "ctr": 0.021,
                     "watch_time_sec": 6.9,
